@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE970AE51BCC7DE600FA5517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE970AE41BCC7DE600FA5517 /* AppDelegate.swift */; };
+		FE970AE71BCC7DE600FA5517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE970AE61BCC7DE600FA5517 /* ViewController.swift */; };
+		FE970AEA1BCC7DE600FA5517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE970AE81BCC7DE600FA5517 /* Main.storyboard */; };
+		FE970AEC1BCC7DE600FA5517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE970AEB1BCC7DE600FA5517 /* Assets.xcassets */; };
+		FE970AEF1BCC7DE600FA5517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE970AED1BCC7DE600FA5517 /* LaunchScreen.storyboard */; };
+		FE970AFA1BCC7DE700FA5517 /* pizzaFastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE970AF91BCC7DE700FA5517 /* pizzaFastTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE970AF61BCC7DE700FA5517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE970AD91BCC7DE600FA5517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE970AE01BCC7DE600FA5517;
+			remoteInfo = pizzaFast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE970AE11BCC7DE600FA5517 /* pizzaFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pizzaFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE970AE41BCC7DE600FA5517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE970AE61BCC7DE600FA5517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE970AE91BCC7DE600FA5517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE970AEB1BCC7DE600FA5517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE970AEE1BCC7DE600FA5517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE970AF01BCC7DE600FA5517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE970AF51BCC7DE700FA5517 /* pizzaFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pizzaFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE970AF91BCC7DE700FA5517 /* pizzaFastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaFastTests.swift; sourceTree = "<group>"; };
+		FE970AFB1BCC7DE700FA5517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE970ADE1BCC7DE600FA5517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE970AF21BCC7DE700FA5517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE970AD81BCC7DE600FA5517 = {
+			isa = PBXGroup;
+			children = (
+				FE970AE31BCC7DE600FA5517 /* pizzaFast */,
+				FE970AF81BCC7DE700FA5517 /* pizzaFastTests */,
+				FE970AE21BCC7DE600FA5517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE970AE21BCC7DE600FA5517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE970AE11BCC7DE600FA5517 /* pizzaFast.app */,
+				FE970AF51BCC7DE700FA5517 /* pizzaFastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE970AE31BCC7DE600FA5517 /* pizzaFast */ = {
+			isa = PBXGroup;
+			children = (
+				FE970AE41BCC7DE600FA5517 /* AppDelegate.swift */,
+				FE970AE61BCC7DE600FA5517 /* ViewController.swift */,
+				FE970AE81BCC7DE600FA5517 /* Main.storyboard */,
+				FE970AEB1BCC7DE600FA5517 /* Assets.xcassets */,
+				FE970AED1BCC7DE600FA5517 /* LaunchScreen.storyboard */,
+				FE970AF01BCC7DE600FA5517 /* Info.plist */,
+			);
+			path = pizzaFast;
+			sourceTree = "<group>";
+		};
+		FE970AF81BCC7DE700FA5517 /* pizzaFastTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE970AF91BCC7DE700FA5517 /* pizzaFastTests.swift */,
+				FE970AFB1BCC7DE700FA5517 /* Info.plist */,
+			);
+			path = pizzaFastTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE970AE01BCC7DE600FA5517 /* pizzaFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE970AFE1BCC7DE700FA5517 /* Build configuration list for PBXNativeTarget "pizzaFast" */;
+			buildPhases = (
+				FE970ADD1BCC7DE600FA5517 /* Sources */,
+				FE970ADE1BCC7DE600FA5517 /* Frameworks */,
+				FE970ADF1BCC7DE600FA5517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pizzaFast;
+			productName = pizzaFast;
+			productReference = FE970AE11BCC7DE600FA5517 /* pizzaFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE970AF41BCC7DE700FA5517 /* pizzaFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE970B011BCC7DE700FA5517 /* Build configuration list for PBXNativeTarget "pizzaFastTests" */;
+			buildPhases = (
+				FE970AF11BCC7DE700FA5517 /* Sources */,
+				FE970AF21BCC7DE700FA5517 /* Frameworks */,
+				FE970AF31BCC7DE700FA5517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE970AF71BCC7DE700FA5517 /* PBXTargetDependency */,
+			);
+			name = pizzaFastTests;
+			productName = pizzaFastTests;
+			productReference = FE970AF51BCC7DE700FA5517 /* pizzaFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE970AD91BCC7DE600FA5517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Victor Glez Guillen";
+				TargetAttributes = {
+					FE970AE01BCC7DE600FA5517 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4V555L3QF9;
+					};
+					FE970AF41BCC7DE700FA5517 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 4V555L3QF9;
+						TestTargetID = FE970AE01BCC7DE600FA5517;
+					};
+				};
+			};
+			buildConfigurationList = FE970ADC1BCC7DE600FA5517 /* Build configuration list for PBXProject "pizzaFast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE970AD81BCC7DE600FA5517;
+			productRefGroup = FE970AE21BCC7DE600FA5517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE970AE01BCC7DE600FA5517 /* pizzaFast */,
+				FE970AF41BCC7DE700FA5517 /* pizzaFastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE970ADF1BCC7DE600FA5517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE970AEF1BCC7DE600FA5517 /* LaunchScreen.storyboard in Resources */,
+				FE970AEC1BCC7DE600FA5517 /* Assets.xcassets in Resources */,
+				FE970AEA1BCC7DE600FA5517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE970AF31BCC7DE700FA5517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE970ADD1BCC7DE600FA5517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE970AE71BCC7DE600FA5517 /* ViewController.swift in Sources */,
+				FE970AE51BCC7DE600FA5517 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE970AF11BCC7DE700FA5517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE970AFA1BCC7DE700FA5517 /* pizzaFastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE970AF71BCC7DE700FA5517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE970AE01BCC7DE600FA5517 /* pizzaFast */;
+			targetProxy = FE970AF61BCC7DE700FA5517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE970AE81BCC7DE600FA5517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE970AE91BCC7DE600FA5517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE970AED1BCC7DE600FA5517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE970AEE1BCC7DE600FA5517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE970AFC1BCC7DE700FA5517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE970AFD1BCC7DE700FA5517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE970AFF1BCC7DE700FA5517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pizzaFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vikht0r.pizzaFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE970B001BCC7DE700FA5517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pizzaFast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vikht0r.pizzaFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE970B021BCC7DE700FA5517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pizzaFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vikht0r.pizzaFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pizzaFast.app/pizzaFast";
+			};
+			name = Debug;
+		};
+		FE970B031BCC7DE700FA5517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pizzaFastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vikht0r.pizzaFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pizzaFast.app/pizzaFast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE970ADC1BCC7DE600FA5517 /* Build configuration list for PBXProject "pizzaFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE970AFC1BCC7DE700FA5517 /* Debug */,
+				FE970AFD1BCC7DE700FA5517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE970AFE1BCC7DE700FA5517 /* Build configuration list for PBXNativeTarget "pizzaFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE970AFF1BCC7DE700FA5517 /* Debug */,
+				FE970B001BCC7DE700FA5517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE970B011BCC7DE700FA5517 /* Build configuration list for PBXNativeTarget "pizzaFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE970B021BCC7DE700FA5517 /* Debug */,
+				FE970B031BCC7DE700FA5517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE970AD91BCC7DE600FA5517 /* Project object */;
+}
