@@ -10,8 +10,15 @@
 import UIKit
 
 class MasaPizza: UIViewController {
-    
+    var masaElegida:String?
+    var defaultMasa = NSUserDefaults.standardUserDefaults()
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let masa = masaElegida
+        let sigVista =  segue.destinationViewController as! ViewController
+        sigVista.masaFinal = masa!
+    }
     @IBOutlet weak var masaEtiqueta: UILabel!
+    
     @IBAction func masaDelgada(sender: AnyObject) {
         masaEtiqueta.text = "Delgada"
         masaElegida = masaEtiqueta.text

@@ -14,7 +14,19 @@ class IngredPizza: UIViewController {
     var cont2 = 0
     var cont3 = 0
     var indice:Int?
-    
+    var indice2 = 0
+    let ingredientes:Array = ["jamon", "pepperoni", "pavo", "salchicha", "aceituna", "cebolla", "pimiento", "piña", "anchoa"
+    ]
+    var ingredientesElegidos: [String]? = []
+    var ingrediente: [String]? = []
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let sigVista =  segue.destinationViewController as! ViewController
+        while indice2 < ingredientesElegidos?.count{
+            ingrediente![indice2] = ingredientesElegidos![indice2]
+        sigVista.ingredientesFinales![indice2] = ingrediente![indice2]
+        indice2++
+        }
+    }
     @IBOutlet var coleccionDeBotones: Array<UIButton>?
     
     @IBAction func ingredienteUno(sender: AnyObject) {

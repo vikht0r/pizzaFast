@@ -14,9 +14,9 @@ class FinalPizza: UIViewController {
     @IBAction func confirmarTerminar(sender: AnyObject) {
         
         //Remover a nivel de KEY
-        defaultTamano.removeObjectForKey("tamañoGuardado")
+        /*defaultTamano.removeObjectForKey("tamañoGuardado")
         defaultMasa.removeObjectForKey("masaGuardada")
-        defaultQueso.removeObjectForKey("quesoGuardado")
+        defaultQueso.removeObjectForKey("quesoGuardado")*/
         //defaultIngred.removeObjectForKey("algoquetodavianoresuelvo")
         
         // mandar un aviso donde se indica al usuario que su pedido esta en cocina.
@@ -24,7 +24,7 @@ class FinalPizza: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        tamanofinal.text = tamanoElegido
+        //tamanofinal.text = tamanoElegido
     }
     
     override func didReceiveMemoryWarning() {

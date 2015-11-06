@@ -11,9 +11,11 @@ import UIKit
 class tamanoPizza: UIViewController {
     
     var valorTextField:String?
-    
+    var tamanoElegido:String?
+    var defaultTamano = NSUserDefaults.standardUserDefaults()
     @IBOutlet weak var tamanoEtiqueta: UILabel!
 
+    
     @IBAction func tamanoChico(sender: AnyObject) {
        
         tamanoEtiqueta.text = "Chico"
@@ -59,7 +61,14 @@ class tamanoPizza: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let tamano = tamanoElegido!
+        let sigVista =  segue.destinationViewController as! ViewController
+        sigVista.tamanoFinal = tamano
+        print("\(tamanoElegido)")
+        
+    }
+
     
 }
 

@@ -10,7 +10,15 @@ import UIKit
 
 class QuesoPizza: UIViewController {
     
+    var quesoElegido:String?
+    var defaultQueso = NSUserDefaults.standardUserDefaults()
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let queso = quesoElegido
+        let sigVista =  segue.destinationViewController as! ViewController
+        sigVista.quesoFinal = queso!
+    }
     @IBOutlet weak var quesoEtiqueta: UILabel!
+    
     @IBAction func quesoMozarela(sender: AnyObject) {
         quesoEtiqueta.text = "Mozarela"
         quesoElegido = quesoEtiqueta.text
