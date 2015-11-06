@@ -22,7 +22,7 @@ var ingredientesElegidos: [String]? = []// ["", "", "", "", ""]
 var defaultTamano = NSUserDefaults.standardUserDefaults()
 var defaultMasa = NSUserDefaults.standardUserDefaults()
 var defaultQueso = NSUserDefaults.standardUserDefaults()
-÷÷var defaultIngred:Array = NSUserDefaults.standardUserDefaults()
+//var defaultIngred:Array = NSUserDefaults.standardUserDefaults()
 
 class ViewController: UIViewController {
 
